@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/suscripcion.css">
         <title>Suscripcion</title>
     </head>
     <body>
@@ -12,8 +15,8 @@
         </header>
 
         <body>
-            <form>
-                <label>Nombre</label>
+            <form id="formSucripcion">
+                <label for="inputFname">Nombre</label>
                 <input type="text" id="inputFname">
                 <label>Apellido</label>
                 <input type="text" id="inputLname">
@@ -52,6 +55,8 @@
 
                 <label>Comentarios</label>
                 <input type="text" id="inputComentarios">
+
+                <button type="submit" id="btnSuscribir" name="btnSuscribir">Suscribirse</button>
             </form>
         </body>
     </body>
