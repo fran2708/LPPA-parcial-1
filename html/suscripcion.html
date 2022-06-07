@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/suscripcion.css">
+        <script src="/JS/suscripcion.js"></script>
         <title>Suscripcion</title>
     </head>
     <body>
@@ -22,7 +23,7 @@
                             <label for="inputFname">Nombre</label>
                         </div>
                         <div class="col75">
-                            <input type="text" id="inputFname">
+                            <input type="text" id="inputFname" placeholder="Tu nombre...">
                         </div>
                     </div>
                     <div class="fila">
@@ -30,7 +31,7 @@
                             <label for="inputLname">Apellido</label>
                         </div>
                         <div class="col75">
-                            <input type="text" id="inputLname">
+                            <input type="text" id="inputLname" placeholder="Tu apellido...">
                         </div>
                     </div>
                     <div class="fila">
@@ -38,7 +39,7 @@
                             <label for="inputEmail">Email</label>
                         </div>
                         <div class="col75">
-                            <input type="text" id="inputEmail">
+                            <input type="text" id="inputEmail" placeholder="Tu email...">
                         </div>
                     </div>
                     <div class="fila">
@@ -46,7 +47,7 @@
                             <label for="inputEdad">Edad</label>
                         </div>
                         <div class="col75">
-                            <input type="text" id="inputEdad">
+                            <input type="text" id="inputEdad" placeholder="Tu edad...">
                         </div>
                     </div>
                     <div class="fila">
@@ -67,16 +68,18 @@
                             <label>Temas de interes</label>
                         </div>
                         <div class="col75">
-                            <input type="checkbox" id="interes0" name="interes0" value="Deporte">
-                            <label for="interes0">Deporte</label><br>
-                            <input type="checkbox" id="interes1" name="interes1" value="Musica">
-                            <label for="interes1">Musica</label><br>
-                            <input type="checkbox" id="interes2" name="interes2" value="Juegos">
-                            <label for="interes2">Juegos</label>
-                            <input type="checkbox" id="interes3" name="interes3" value="Tecnologia">
-                            <label for="interes3">Tecnologia</label>
-                            <input type="checkbox" id="interes4" name="interes4" value="Otros">
-                            <label for="interes4">Otros</label>
+                            <div class="box-intereses">
+                                <input type="checkbox" id="interes0" name="interes0" value="Deporte">
+                                <label for="interes0">Deporte</label><br>
+                                <input type="checkbox" id="interes1" name="interes1" value="Musica">
+                                <label for="interes1">Musica</label><br>
+                                <input type="checkbox" id="interes2" name="interes2" value="Juegos">
+                                <label for="interes2">Juegos</label>
+                                <input type="checkbox" id="interes3" name="interes3" value="Tecnologia">
+                                <label for="interes3">Tecnologia</label>
+                                <input type="checkbox" id="interes4" name="interes4" value="Otros">
+                                <label for="interes4">Otros</label>
+                            </div>
                         </div>
                     </div>
                     <div class="fila">
@@ -97,7 +100,7 @@
                             <label for="inputComentarios">Comentarios</label>
                         </div>
                         <div class="col75">
-                            <textarea id="inputComentarios" name="inputComentarios" placeholder="Escriba un comentario..."></textarea>
+                            <textarea id="inputComentarios" name="inputComentarios" placeholder="Escribinos un comentario..."></textarea>
                         </div>
                     </div>
                     <div class="fila">

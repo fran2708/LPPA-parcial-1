@@ -23,15 +23,16 @@ label {
     display: inline-block;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     border: 3px  solid #555;
 }
 
 select {
     width: 100%;
     padding: 16px 20px;
-    border: none;
+    border: 3px solid #ccc;
     border-radius: 4px;
+    -webkit-transition: 0.5s;
     background-color: #f1f1f1;
 }
 
@@ -43,6 +44,15 @@ select {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.box-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-error {
+    border: 3px solid #dd0202 !important;
 }
 
 .container-form {
