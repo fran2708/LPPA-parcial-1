@@ -16,6 +16,7 @@ input[type="text"], textarea {
     transition: 0.5s;
     outline: none;
     resize: vertical;
+    background-color: #f1f1f1;
 }
 
 label {
@@ -36,6 +37,66 @@ select {
     background-color: #f1f1f1;
 }
 
+input:hover, textarea:hover, select:hover {
+    background-color: #b9d5dba6;
+}
+
+/* .modal { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+}
+
+.modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background: var(--white);
+    overflow: auto;
+    cursor: default;
+}
+
+.modal-dialog > * {
+    padding: 1rem;
+}
+
+.modal-header, .modal-footer {
+    background: var(--lightgray);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header .modal-close {
+    font-size: 1.5rem;
+}
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+}
+
+.modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+} */
+
 #btnSuscribir {
     background-color: #0489aa;
     border: none;
@@ -44,6 +105,10 @@ select {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#btnSuscribir:hover {
+    background-color: #4394a8;
 }
 
 .box-intereses {

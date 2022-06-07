@@ -10,7 +10,6 @@ window.onload = function() {
         validateLName();
         validateEmail();
         validateEdad();
-
     });
 
     fname.addEventListener('focus', removeFNameError);
@@ -21,7 +20,7 @@ window.onload = function() {
     function validateFName(e) {
         let x = fname.value;
         if(x.length < 3) {
-            fname.setCustomValidity("Al menos 3 caracteres");
+            fname.setCustomValidity("Deben ser al menos 3 caracteres");
             fname.classList.add('input-error');
         }
     }
@@ -34,7 +33,7 @@ window.onload = function() {
     function validateLName(e) {
         let x = lname.value;
         if(x.length < 3) {
-            lname.setCustomValidity("Al menos 3 caracteres");
+            lname.setCustomValidity("Deben ser al menos 3 caracteres");
             lname.classList.add('input-error');
         }
     }
@@ -73,9 +72,6 @@ window.onload = function() {
         } else if (x < 0 || x > 100) {
             edad.setCustomValidity("Debe ser entre 0 y 100");
             edad.classList.add('input-error');
-        } else {
-            edad.setCustomValidity("");
-            edad.classList.remove('input-error');
         }
     }
 
